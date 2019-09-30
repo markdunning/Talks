@@ -1,7 +1,7 @@
 ---
-title: "Hacktoberfest 2018"
+title: "Hacktoberfest 2019"
 subtitle: "Intro to contributing to open source"
-author: "Anna Krystalli, Sheffield RSE, Sheffield R Users Group"
+author: "Mark Dunning, Sheffield Bioinformatics Core"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -18,13 +18,14 @@ options(htmltools.dir.version = FALSE)
 
 
 
-# Welcome to Hacktoberfest 2018!
+# Welcome to Hacktoberfest 2019!
 
 - ### A one month celebration of Open Source on GitHub.
 
 - ### all about meaningful contribution to the open source ecosystem.
 
-- ### Make 5 pull requests to a public repository on GitHub to get a t-shirt 
+- ### Make *4* pull requests to a public repository on GitHub to get a t-shirt 
+    - don't need to be accepted
 
 ---
 
@@ -40,6 +41,9 @@ options(htmltools.dir.version = FALSE)
     - Firefox
     - R & R packages
     - Python
+    - [Apollo-11](https://github.com/chrislgarry/Apollo-11)
+    - [BBC Data Unit](https://github.com/BBC-Data-Unit)
+    - This Talk! 
 
 ---
 ## Philosophy of Working Open
@@ -157,7 +161,9 @@ Work on something you use!
 - Find something to work on:
     - Check hacktoberfest [website](https://hacktoberfest.digitalocean.com/)
     - search on GitHub
-
+    ```
+    label:hacktoberfest state:open language:R
+    ```
 ---
 
 ## Parting words
